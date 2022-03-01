@@ -1,0 +1,30 @@
+/* VARIABLES */
+:root {
+  --colorPrincipal: #05AEEF;
+  --colorSecundario: #D4F3FE;
+  --blanco: #FFF;
+  --negro: #000;
+}
+
+/* GLOBALES */
+.App {
+  margin: 0;
+  padding: 0;
+}
+.bg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.container {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}

@@ -1,0 +1,60 @@
+/* HEADER */
+
+.header {
+    height: 6.75rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 2fr 1fr;
+    
+}
+
+/* FILA 1 */
+.fila-1 {
+    background-color: var(--colorPrincipal);
+    height: 5rem;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/* LOGO */
+.logo {
+    height: 4.5em;
+    margin-left: 1.5em;
+    width: 4.5em;
+    position: absolute;
+}
+
+/* ICONS */
+
+.icons {
+    display: flex;
+    direction: row;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+/* SEARCH */
+.search-div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 1.5em;
+}
+
+.search {
+    height: 3.5em;
+}
+
+/* MENU */
+.menu-div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 1.5em;
+}
+
+.menu {
+    height: 3.5em;
+}
