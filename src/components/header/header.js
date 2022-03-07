@@ -1,6 +1,11 @@
 import React from "react";
 import logo from "../../assets/img/logo.png";
 import style from "./style.css";
+
+function search(){
+    
+}
+
 class Header extends React.Component {
     render() {
         return (
@@ -22,10 +27,10 @@ class Header extends React.Component {
                 </div>
                 
                 <nav className="nav">
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                    <ul className="nav-ul">
+                        <li className="nav-ul-li"></li>
+                        <li className="nav-ul-li"></li>
+                        <li className="nav-ul-li"></li>
                     </ul>
                 </nav>
             </header>

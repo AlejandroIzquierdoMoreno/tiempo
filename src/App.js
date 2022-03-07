@@ -1,6 +1,6 @@
 import './assets/css/App.css';
 import React from 'react';
-import bg from './assets/img/9.jpg'
+import bg from './assets/img/fondo.jpg'
 
 //Importar Componentes
 import Header from "./components/header/header"
