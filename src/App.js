@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <img className="bg" src={bg} />
       <div className="container">
-        <Header />
+        <Header/>
       </div>
     </div>
   );

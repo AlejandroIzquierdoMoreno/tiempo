@@ -4,6 +4,7 @@
   --colorSecundario: #92c5fc;
   --blanco: #FFF;
   --negro: #000;
+  --timing-function: cubic-bezier(0.82, 0.2, 0.42, 1);
 }
 
 /* GLOBALES */
