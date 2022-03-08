@@ -3,7 +3,10 @@ import logo from "../../assets/img/logo.png";
 import style from "./style.css";
 
 function search(){
-    
+    return (<div className="search">
+                <input type="text" placeholder="Introduce tu ciudad para ver el tiempo..."></input>
+                <input type="submit" value="Buscar" />
+            </div>)
 }
 
 class Header extends React.Component {
@@ -13,14 +16,9 @@ class Header extends React.Component {
                 <div className="fila-1">
                     <img className="logo" src={logo}/>
                     <div className="icons">
-                        <div className="search-div">
+                        <div className="search-div" onClick={search}>
                             <svg xmlns="http://www.w3.org/2000/svg" className="search h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                            </svg>
-                        </div>
-                        <div className="menu-div">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="menu h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                             </svg>
                         </div>
                     </div>
@@ -28,9 +26,9 @@ class Header extends React.Component {
                 
                 <nav className="nav">
                     <ul className="nav-ul">
-                        <li className="nav-ul-li"></li>
-                        <li className="nav-ul-li"></li>
-                        <li className="nav-ul-li"></li>
+                        <li className="nav-ul-li">Predicciones</li>
+                        <li className="nav-ul-li">Capitales del Mundo</li>
+                        <li className="nav-ul-li">Mapas</li>
                     </ul>
                 </nav>
             </header>
