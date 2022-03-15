@@ -29,16 +29,5 @@ class Header extends React.Component {
     }
 }
 
-class Busqueda extends React.Component {
-    render() {
-        return(
-            <div className="busqueda">
-                <input type="text" className="busqueda-input" placeholder="Busca tu ciudad aquí"></input>
-            </div>
-        )
-        
-    }
 
-}
-
-export default (Busqueda, Header);
+export default (Header);
